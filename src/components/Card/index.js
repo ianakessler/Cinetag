@@ -19,7 +19,7 @@ const Card = (props) => {
                 alt={props.titulo} 
                 className={styles.capa}/>
 
-                <h2>{props.titulo}</h2>
+                <h2 className={styles.titulo}>{props.titulo}</h2>
             </Link>
 
             <img 

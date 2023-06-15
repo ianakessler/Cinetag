@@ -6,7 +6,19 @@ import styles from "./favoritos.module.css";
 
 const Favoritos = () => {
   const { favorito } = useFavoritoContext();
-
+  if(favorito.length===0){
+    return(
+      <>
+      <Banner imagem="favoritos" />
+      <Titulo>
+        <h1>Parece que você ainda não adicionou nenhum video ao favoritos! </h1>
+      </Titulo>
+      <section className={styles.container}>
+        <p className={styles.aviso}>Para fazer isso é só clicar no simbolo de coração abaixo do título do video.</p>
+      </section>
+    </>
+    )
+  }
   return (
     <>
       <Banner imagem="favoritos" />
