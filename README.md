@@ -1,4 +1,4 @@
-<h2>Deploy daaplicação ==> https://cinetag-virid.vercel.app/</h2>
+<h2>Deploy da aplicação > https://cinetag-virid.vercel.app/</h2>
 
 # Getting Started with Create React App
 
